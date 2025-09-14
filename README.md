@@ -1,2 +1,2 @@
-# blood-link-app
+# DonorSync app
 app related to blood donation
