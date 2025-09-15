@@ -1,56 +1,60 @@
 # 🩸 DonorSync – Smart Blood Donation App  
 
 DonorSync is a mobile application designed to connect **blood donors and recipients** in real time.  
-The app solves the challenges of delays, inefficiency, and trust in the traditional blood donation process by offering **role-based access**, **real-time donor matching**, and **AI-powered assistance**.  
+The app solves the challenges of delays, inefficiency, and trust in traditional blood donation systems by offering **role-based access**, **real-time donor matching**, and **AI-powered assistance**.  
+
+---
+
+## 🖼️ Prototype Screenshots  
+
+Below are key screens from the DonorSync app prototype.  
+
+> 💡 Note: All prototype images were **created using AI (Google Gemini)** to visualize the app concept.  
+> These images illustrate the user interface and app flow; the actual implementation is being developed using Flutter and Firebase.
+
+### 1️⃣ Splash / Welcome Screen
+Professional, clean design with logo and tagline.  
+![Splash Screen](prototype_images/01_SplashScreen.png)
+
+### 2️⃣ Login / Signup Screen
+Login via Email/Phone/Google; select Donor or Recipient role.  
+![Login Screen](prototype_images/02_LoginScreen.png)
+
+### 3️⃣ Donor Dashboard
+Donors see nearby blood requests with filters and accept buttons.  
+![Donor Dashboard](prototype_images/03_DonorDashboard.png)
+
+### 4️⃣ Recipient Request Form
+Recipients can post blood requests with details like blood group, hospital, and urgency.  
+![Recipient Form](prototype_images/04_RecipientForm.png)
+
+### 5️⃣ Request Accepted / Confirmation
+Shows donor acceptance and next steps (chat/call, progress tracking).  
+![Request Accepted](prototype_images/05_RequestAccepted.png)
+
+### 6️⃣ Emergency Mode
+Highlights urgent requests with badges and prioritization.  
+![Emergency Mode](prototype_images/06_EmergencyMode.png)
+
+### 7️⃣ AI Assistant Chat
+Helps users with eligibility, FAQs, and structured request guidance.  
+![AI Assistant Chat](prototype_images/07_AIChat.png)
+
+### 8️⃣ Donation History / Certificates
+Tracks completed donations and awards badges or certificates to donors.  
+![Donation History](prototype_images/08_DonationHistory.png)
 
 ---
 
 ## 🚀 Features  
 
-### 👤 Role-Based Access  
-- **Donors:** Register, update availability, receive matching requests.  
-- **Recipients:** Post structured requests with urgency & hospital details.  
-- **Admins:** Moderate requests, verify users, ensure system integrity.  
-
-### 🔒 Secure Authentication  
-- Firebase Authentication (Email/Phone/Google login).  
-- OTP-based verification for sensitive actions.  
-
-### ⚡ Real-Time Matching  
-- Filters donors based on blood group and location.  
-- Sends instant push notifications to nearby eligible donors.  
-
-### ✅ Trust & Verification  
-- Donor ID/medical document upload.  
-- Verified donor badges & reputation system.  
-
-### 🆘 Emergency Mode  
-- Urgent requests tagged and prioritized.  
-- Donors receive repeated alerts until request is accepted.  
-
-### 🌍 Multilingual Support  
-- Telugu-first UI.  
-- Expansion to other local languages for inclusivity.  
-
-### 🎖️ Donation Tracking & Rewards  
-- Logs donation history.  
-- Issues digital certificates & gamified badges.  
-
-### 🤖 AI-Powered Assistant (via OpenAI APIs)  
-- Guides users through onboarding and profile setup.  
-- Answers FAQs about donation & app usage.  
-- Converts unstructured text into standardized request forms.  
-- Multilingual support for accessibility.  
-
----
-
-## 🛠️ Tech Stack  
-
-- **Frontend:** Flutter  
-- **Backend & Database:** Firebase (Firestore, Auth, Cloud Messaging)  
-- **AI Integration:** OpenAI APIs (chat, translation, content moderation)  
-- **Notifications:** Firebase Cloud Messaging  
-- **Version Control:** GitHub  
+- **Role-Based Access:** Donor, Recipient, Admin interfaces.  
+- **Secure Authentication:** Firebase Auth + OTP verification.  
+- **Real-Time Matching:** Blood type + location filter, push notifications.  
+- **Verification & Trust:** ID/document upload, reputation badges.  
+- **Multilingual Support:** Telugu-first UI, English support.  
+- **Donation Tracking:** History, certificates, gamification.  
+- **AI Assistance:** OpenAI-powered guidance and FAQs.  
 
 ---
 
@@ -58,46 +62,33 @@ The app solves the challenges of delays, inefficiency, and trust in the traditio
 
 1. Recipient posts a blood request.  
 2. System finds nearby matching donors.  
-3. Donors receive push notifications.  
-4. Donor accepts → Secure contact established.  
-5. Donation completed → System logs and rewards donor.  
+3. Donors receive notifications and accept requests.  
+4. Secure contact established → donation completed.  
+5. Donation logged, donor receives badge/certificate.  
 
 ---
 
 ## 📅 Development Roadmap  
 
-- **Phase 1:** Core MVP – donor/recipient roles, auth, matching, notifications.  
-- **Phase 2:** Trust features – verification, donation history, admin dashboard.  
-- **Phase 3:** AI integration – onboarding assistant, multilingual UI.  
-- **Phase 4:** Scaling – partnerships with hospitals, NGOs, gamification features.  
+- **Phase 1:** MVP – roles, auth, matching, notifications.  
+- **Phase 2:** Verification, history, admin dashboard.  
+- **Phase 3:** AI integration, multilingual UI.  
+- **Phase 4:** Scaling – partnerships, gamification.  
 
 ---
 
 ## 👥 Contribution  
 
-Contributions are welcome!  
-- Fork the repo  
-- Create a feature branch (`git checkout -b feature-name`)  
-- Commit changes (`git commit -m 'Added new feature'`)  
-- Push to branch (`git push origin feature-name`)  
-- Open a Pull Request  
+Contributions welcome: fork → feature branch → commit → push → pull request.  
 
 ---
 
 ## 📜 License  
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.  
-
----
-
-## 🙌 Acknowledgements  
-
-- **OpenAI APIs** – powering AI assistant, multilingual support.  
-- **Firebase** – authentication, real-time database, notifications.  
-- **Flutter** – building a cross-platform, mobile-first solution.  
+MIT License – see [LICENSE](LICENSE) for details.  
 
 ---
 
 ## 💡 Vision  
 
-To create a **trustworthy, accessible, and scalable blood donation platform** that saves lives by making blood donations faster, transparent, and community-driven.  
+Create a **trustworthy, accessible, and scalable blood donation platform** that saves lives by connecting donors and recipients efficiently and safely.
